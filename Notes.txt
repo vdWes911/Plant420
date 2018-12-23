@@ -1,0 +1,12 @@
+Read example projects in 
+C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries
+Best one is the range finder example
+
+If the I2C scanner picks up weird address. Check address in binary and drop least significant bit. Hopefully same address. 
+
+Temperature sensor; 0x40
+Light Sensor: 0x23  or 0x5C ?? Is it broken? Should be 0x29 or 0x39 or 0x49
+
+
+Soil mosture sensor: Connect to input only pins (Does not have pullUp resistors (GPIB 34 is one)
+		     Figure out the digital pin and which way potentio peter should turn.
