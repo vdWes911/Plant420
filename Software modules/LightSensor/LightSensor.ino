@@ -13,7 +13,7 @@
 #define POWER_OFF    0x00
 #define WORD_READ    0x10
 
-#define LightAddress 0x23 // Try to send the power on command to all addresses except 0x40 (The temp sensor)
+#define LightAddress 0x23 // This should change to 29 or 39 or 49, please look at datasheet for sensor's address. Try to send the power on command to all addresses except 0x40 (The temp sensor)
 #define SDA 18
 #define SCL 19
 
